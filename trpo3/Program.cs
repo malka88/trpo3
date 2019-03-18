@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace trpo3
 {
+    static void div(float a, float b)
+    {
+        Console.Clear();
+        float x = a / b;
+        Console.WriteLine("{1}", x);
+        Console.ReadKey();
+    }
+
     class Program
     {
         static void Main(string[] args)
