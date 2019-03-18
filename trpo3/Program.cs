@@ -8,6 +8,14 @@ namespace trpo3
 {
     class Program
     {
+        static void add(float a, float b)
+        {
+            Console.Clear();
+            float x = a + b;
+            Console.WriteLine("{1}", x);
+            Console.ReadKey();
+        }
+
         static void sub(float a, float b)
         {
             Console.Clear();
@@ -16,10 +24,10 @@ namespace trpo3
             Console.ReadKey();
         }
 
-        static void add(float a, float b)
+        static void mul(float a, float b)
         {
             Console.Clear();
-            float x = a + b;
+            float x = a * b;
             Console.WriteLine("{1}", x);
             Console.ReadKey();
         }
